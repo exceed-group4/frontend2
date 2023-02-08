@@ -1,0 +1,72 @@
+body {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#wrapper{
+    border: 1px solid gainsboro;
+    width: 300px;
+    margin-bottom: 15px;
+    background-color: cornsilk;
+}
+
+#modeDiv div{
+    display: inline-block;
+    margin: 0px 8px;
+}
+
+#modeDiv div input{
+    margin-right: 5px;
+}
+
+#onOffDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+#onOffDiv p{
+    margin: 0px 10px;
+}
+
+#modeDiv p {
+    background-color: rgb(243, 232, 187);
+    width: fit-content;
+    padding: 5px;
+    text-align: center;
+    display: block;
+    margin: 0px auto 15px auto;
+}
+
+#brightnessDiv p{
+    background-color: rgb(243, 232, 187);
+    width: fit-content;
+    padding: 5px;
+    text-align: center;
+    display: block;
+    margin: 0px auto 15px auto;
+}
+
+#modeDiv {
+    padding: 5px;
+    position: relative;
+    width: fit-content;
+    margin: auto;
+}
+
+#radioBright input{
+    margin-right: 5px;
+}
+
+#radioBright label{
+    margin-right: 10px;
+}
+
+#brightnessDiv {
+    margin-bottom: 25px;
+}
